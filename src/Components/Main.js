@@ -60,7 +60,7 @@ export default function Album() {
                             <b>P4sTela (ぱすてら)</b>
                         </Grid>
                         <br/>
-                        <Grid container justifyContent="center">
+                        <Grid container justifyContent="center" alignItems={'center'}>
                             <FaGithub />
                             {"　"}
                             <Link color="inherit" href="https://github.com/P4sTela">
@@ -68,7 +68,7 @@ export default function Album() {
                             </Link>
                         </Grid>
                         <br/>
-                        <Grid container justifyContent="center">
+                        <Grid container justifyContent="center" alignItems={'center'}>
                             <FaTwitter />
                             {"　"}
                             <Link color="inherit" href="https://twitter.com/P4sTela">
@@ -76,7 +76,7 @@ export default function Album() {
                             </Link>
                         </Grid>
                         <br/>
-                        <Grid container justifyContent="center">
+                        <Grid container justifyContent="center" alignItems={'center'}>
                             <MdFmdGood />
                             {"　"}
                             Tokyo, Japan
