@@ -13,6 +13,13 @@ import {
 import { FaGithub } from "react-icons/fa"
 import { FaTwitter } from "react-icons/fa"
 import { MdFmdGood } from "react-icons/md"
+import { styled } from '@mui/material/styles';
+
+const Img = styled('img')({
+    display: 'block',
+    maxWidth: '16px',
+    maxHeight: '16px',
+  });
 
 // import {ContainerDet} from "../Contents/ContainerBox";
 // import ArticleDialog from "./ArticleDialog";
@@ -74,6 +81,18 @@ export default function Album() {
                             <Link color="inherit" href="https://twitter.com/P4sTela">
                                 P4sTela
                             </Link>
+                        </Grid>
+                        <br/>
+                        <Grid container justifyContent="center" alignItems={'center'}>
+                            <Img src="https://img.atcoder.jp/assets/atcoder.png" />
+                            {"　"}
+                            <Link color="inherit" href="https://atcoder.jp/users/P4sTela">
+                                P4sTela
+                            </Link>
+                        </Grid>
+                        <br/>
+                        <Grid container justifyContent="center" alignItems={'center'}>
+                            (AtCoderあんまやってない)
                         </Grid>
                         <br/>
                         <Grid container justifyContent="center" alignItems={'center'}>
